@@ -1,0 +1,41 @@
+:root{
+    --brand-1: #036635;
+    --brand-2: #3BB377;
+    --grey-8: #121214;
+    --grey-7: #191C1F;
+    --grey-6: #212529;
+    --grey-5: #33363A;
+    --grey-4: #373B3E;
+    --grey-3: #A6A8A9;
+    --grey-2: #121214;
+    --grey-1: #D9D9D9;
+    --white: #FFFF;
+}
+
+input{
+    width: 316px; 
+    height: 38px;
+    padding-left: 8px;
+    border: 1px solid var(--grey-5);
+    border-radius: 4px;
+    background-color: var(--grey-7);
+    color: var(--white);
+}
+
+button{
+    padding: 10px 135px;
+    background-color: var(--brand-1);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--brand-2);
+}
+
+body{
+    background-color: var(--grey-8);
+    color: var(--white);
+}

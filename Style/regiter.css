@@ -1,0 +1,62 @@
+body{
+    display: flex;
+}
+
+.section_form{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_form p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section_form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.section_form form div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.section_form button{
+    margin-top: 19px;
+}
+
+.section_logo{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--brand-1);
+}
+
+.section_logo div{
+    width: 431px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.section_logo img{
+    width: 175px;
+}
+
+.section_logo p{
+    font-size: 20px;
+    line-height: 150%;
+}
