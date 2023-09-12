@@ -1,0 +1,115 @@
+* {border: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body 
+{
+	margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+#one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-color: #036635;
+    width: 50%;
+}
+#two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-color: #212529;
+    width: 50%;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Abaixo está a estilização da primeira parte da página, contendo a logo e*/
+/*o conteúdo descritivo.*/
+
+.logo {
+    margin: 0px;
+    padding: 0px;
+    height: 208px;
+    width: 431px;
+}
+.logo .logo1 {
+    margin: 0px;
+    padding: 0px;
+    width: 175px;
+    height: 70px;
+    margin-bottom: 28px;
+}
+.logo .contentPage1 p {
+    margin: 0px;
+    padding: 0px;
+    width: 431px;
+    height: 90px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/*Abaixo está localizado a estilização da segunda parte, contendo o formulário*/
+/* de login.*/
+
+.content2 {
+    width: 316px;
+    height: 331px;
+    display: flex;
+}
+.content2 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.content2 h1{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.content2 form  input{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.content2 label{
+    margin-bottom: 18px;
+}
+.entrada1, 
+.entrada2 {
+    display: flex;
+    flex-direction: column;
+}
+.entrada1 input, 
+.entrada2 input{
+    background-color: #121214;
+    border: 1px solid #33363A;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    color: #ccc;
+}
+#submit {
+    background-color: #036635;
+    border-radius: 5px;
+    color: #ffffff;
+}
+#submit:hover {
+    background-color: #1845;
+}
