@@ -1,0 +1,67 @@
+.header{
+    height: 80px;
+    padding: 0px 40px;
+
+    background-color: var(--grey-8);
+
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.optionHeader{
+    height: 100%;
+    padding: 0 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.optionHeader:hover{
+    border-bottom: 2px solid var(--brand-2);
+}
+
+.main{
+    padding: 30px 60px;
+
+    display: flex;
+    gap: 40px;
+}
+
+.imgUser{
+    width: 285px;
+    height: 285px;
+
+    border-radius: 100%;
+    border: 1px solid var(--brand-2);
+}
+
+.containerInfos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.nameUser{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.office{
+    font-size: 18px;
+    color: var(--grey-3);
+}
+
+.containerLocal{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.marker{
+    width: 20px;
+    color: var(--grey-3);
+}
